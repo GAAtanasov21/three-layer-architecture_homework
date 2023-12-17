@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="business-logic-tier\BusinessLogic.cpp" />
+    <ClCompile Include="data-tier\DataAccess.cpp" />
+    <ClCompile Include="presentation-tier\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="business-logic-tier\BusinessLogic.h" />
+    <ClInclude Include="data-tier\DataAccess.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data-tier\usernames.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,18 +138,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="BusinessLogic.cpp" />
-    <ClCompile Include="DataAccess.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BusinessLogic.h" />
-    <ClInclude Include="DataAccess.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="usernames.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

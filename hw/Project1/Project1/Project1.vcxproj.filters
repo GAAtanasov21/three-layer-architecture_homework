@@ -9,38 +9,29 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\presentation_tier">
-      <UniqueIdentifier>{b213201c-de12-4743-96e0-3f554be3f1d4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\business_logic_tier">
-      <UniqueIdentifier>{0d00c0ed-bbad-4ef3-a5e9-446c5df61804}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\data_tier">
-      <UniqueIdentifier>{ab6a8166-ba15-41c4-a6c6-40386592863e}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files\presentation_tier</Filter>
+    <ClCompile Include="business-logic-tier\BusinessLogic.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DataAccess.cpp">
-      <Filter>Source Files\data_tier</Filter>
+    <ClCompile Include="data-tier\DataAccess.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BusinessLogic.cpp">
-      <Filter>Source Files\business_logic_tier</Filter>
+    <ClCompile Include="presentation-tier\main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DataAccess.h">
-      <Filter>Source Files\data_tier</Filter>
+    <ClInclude Include="business-logic-tier\BusinessLogic.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="BusinessLogic.h">
-      <Filter>Source Files\business_logic_tier</Filter>
+    <ClInclude Include="data-tier\DataAccess.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="usernames.txt">
-      <Filter>Source Files\data_tier</Filter>
+    <Text Include="data-tier\usernames.txt">
+      <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
 </Project>
